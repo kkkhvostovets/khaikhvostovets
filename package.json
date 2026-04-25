@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/kkkhvostovets/khaikhvostovets/issues"
   },
-  "homepage": "https://github.com/kkkhvostovets/khaikhvostovets#readme"
+  "homepage": "https://github.com/kkkhvostovets/khaikhvostovets#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
 }
