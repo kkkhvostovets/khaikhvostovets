@@ -1,0 +1,19 @@
+{
+  "name": "khaikhvostovets",
+  "version": "1.0.0",
+  "description": "Univetsity project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kkkhvostovets/khaikhvostovets.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kkkhvostovets/khaikhvostovets/issues"
+  },
+  "homepage": "https://github.com/kkkhvostovets/khaikhvostovets#readme"
+}
