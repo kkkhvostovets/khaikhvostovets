@@ -1,25 +1,20 @@
+const { drizzle } = require('drizzle-orm/node-postgres');
 
-import { drizzle } from 'drizzle-orm/node-postgres';
+const { Client } = require('pg');
 
-import { Client } from 'pg';
-
-import * as schema from './schema';
+const schema = require('./schema');
 
 //потрібно використовувати EVN VARIABLE замість хард-коду
 const client = new Client({
 
    host: '127.0.0.1',
-
    port: 5432,
-
    user: 'nodejs_course_admin',
-
    password: 'my_password',
-
    database: 'nodejs_course_database',
 
 });
 
-await client.connect();
+client.connect();
 
-export const db = drizzle(client, { schema });
+module.exports = drizzle(client, { schema });
